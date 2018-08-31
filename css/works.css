@@ -1,7 +1,7 @@
 *{
     margin: 0px;
 	padding: 0px;
-	font-family: Segoe UI Light;
+	font-family: Segoe UI Light, Roboto;
 	box-sizing: border-box;
 }
 
@@ -120,7 +120,7 @@ nav>ul li a:hover{
 
 .banner{
    
-			margin-top: 100px;
+			margin-top: 150px;
 			display: flex;
     flex-direction: column;
     text-align: center;
@@ -366,7 +366,7 @@ img{
 .banner{
     font-size: 120%;
     margin-top: 0px;
-	 height: 80vh;
+    height: 80vh;
 }
 
 .round{
