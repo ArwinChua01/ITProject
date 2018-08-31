@@ -366,6 +366,7 @@ img{
 .banner{
     font-size: 120%;
     margin-top: 0px;
+	 height: 80vh;
 }
 
 .round{
