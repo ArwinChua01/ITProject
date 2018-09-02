@@ -11,8 +11,18 @@
   
 }
 
+.col.half1 {
+	width: 60%;
+}
+
+
+.col.half2 {
+    width: 20%;
+margin-left: 150px;
+}
+
 .col.half{
-	width: 50%;
+    width: 50%;
 }
 
 .col.third{
@@ -24,6 +34,8 @@
     color: orangered;
 }
 
+
+
 .col.four{
     width: 24%;
     
@@ -31,6 +43,11 @@
 
 .jk{
     margin-bottom: 10px;
+}
+
+.two{
+    text-align: center;
+    background: #200d00; color:antiquewhite; padding:20px;
 }
 
 img{
@@ -67,7 +84,7 @@ height: 250px;
 
 nav{
     display: flex;
-    background: #000000;
+   
    
     color: white;
   
@@ -132,6 +149,12 @@ nav>ul li a:hover{
 
 }
 
+a{
+    color: #fdfdfd;
+    text-decoration: none;
+    
+}
+
 .fe{
     margin-left: 10px;
 }
@@ -156,23 +179,28 @@ nav>ul li a:hover{
 section{
     background:
     linear-gradient(
-        rgba(0,0,0,.8),
-        rgba(0,0,0,.8)),
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)),
     url('../img/gallery03.jpg');
     background-size:cover;
 height: 100vh;
 
 }
 
+.sec2{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)),
+    url('../img/01.jpg');
+    background-size:cover;
+height: 80vh;
+
+}
 
 .card {
-	position: relative;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
+	
+	
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
@@ -180,7 +208,9 @@ height: 100vh;
 	background-clip: border-box;
 	border: 1px solid rgba(0, 0, 0, 0.35);
 	border-radius: 0.40rem;
-	margin: 20px;
+    margin: 40px;
+    padding: 10px;
+   
    
   }
 
@@ -225,10 +255,29 @@ margin-top: 5px;
 border-radius: 0.40rem;
 padding-left: 15px;
 padding-right: 15px;
+
 }
 .btn1:hover{
     background: orangered;
 }
+
+.btn2{
+    border: none;
+    background: orangered;
+    padding: 10px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 0.40rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    }
+    .btn2:hover{
+        background: rgb(238, 117, 73);
+        cursor: pointer;
+    }
+    
+
 
 .foot{
     background: rgb(27, 26, 26);
@@ -272,6 +321,37 @@ padding-right: 15px;
     margin: 5px;
     padding-right: 15px;
     padding-left: 15px; 
+}
+
+.fb:hover{
+    color:rgb(6, 6, 202);
+    background: rgb(27, 26, 26);
+}
+
+.tw:hover{
+    color:rgb(8, 136, 187);
+    background: rgb(27, 26, 26);
+}
+
+.ins:hover{
+    color:rgb(187, 59, 0);
+    background:rgb(27, 26, 26);
+}
+
+.gp:hover{
+    color: rgb(201, 20, 3);
+    background: rgb(27, 26, 26);
+}
+
+.in:hover{
+    color:  rgb(4, 105, 219);
+    background: rgb(27, 26, 26);
+}
+
+
+.so:hover{
+    color: orange;
+    background: rgb(27, 26, 26);
 }
 
 .tw{
@@ -336,6 +416,11 @@ margin-right: 40px;
 	width: 100%;
 }
 
+.col.half2 {
+    width: 100%;
+margin-left: 0px;
+margin-top: 20px;
+}
 .col.third{
     width: 100%;
     margin: 10px;
@@ -369,8 +454,14 @@ img{
     height: 80vh;
 }
 
+
+
 .round{
    width: 18%;
+}
+
+.mui{
+    margin-top: 10px;
 }
 
 
@@ -382,9 +473,7 @@ img{
     width: 13%;
 
  }
-.dark{
-    background: #35424a;
-}
+
 .as{
     margin-left: 0px;
 }
@@ -398,35 +487,94 @@ img{
 }
 
 .btn1{
-    width: 31%;
-  
+    width: auto;
+ 
 }
 
 .lk{
     text-align: center;
+    align-items: center;
+}
+
+li>a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.col.half1 {
+	width: 100%;
+}
+
+
+.col.half2 {
+    width: 100%;
+}
+
+
+.sec2{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)),
+    url('../img/01.jpg');
+    background-size: cover;
+height: 120vh;
+
+}
+
+.card{
+    margin: 0px;
 }
 
 
 
 
-
-
-
-
 }
 
 
+.mrg{
+    margin-bottom: 5px;
+}
 
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+}
 
+#newsletter button, .quote button{
+    display: block;
+    width: 100%;
+    }
+    
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;
+    }
 
+.ser{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #fdfdfd; list-style: none;
+    border-radius: 5px;
+  
+}
 
+.service2{
+  width: 10%;
+  
+  background: rgb(27, 26, 26);
+  color: rgb(255, 255, 255);
+  padding: 30px;
+ 
+}
 
-
-
-
-
-
-
+.contact{
+    padding: 20px;
+}
 
 
 
