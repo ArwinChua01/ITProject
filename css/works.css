@@ -50,7 +50,7 @@ margin-left: 150px;
     background: #200d00; color:antiquewhite; padding:20px;
 }
 
-img{
+.img{
 max-width: 100%;
 height: 250px;
 
@@ -184,7 +184,8 @@ section{
     url('../img/gallery03.jpg');
     background-size:cover;
 height: 100vh;
-
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .sec2{
@@ -195,7 +196,8 @@ height: 100vh;
     url('../img/01.jpg');
     background-size:cover;
 height: 80vh;
-
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .card {
@@ -432,7 +434,7 @@ margin-top: 20px;
     
 }
 
-img{
+.img{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
